@@ -1,0 +1,140 @@
+.sale-section {
+font-family: "Gilroy", sans-serif;
+}
+
+.sale-subtitle {    
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #0c0c0c;
+    margin-bottom: 24px;
+}
+.sale-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sale-imgcontainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;    
+}
+
+.sale-imglist {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+
+.sale-imglist-item {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 16px;    
+    background: #f3f3f3;
+    padding: 13px 14px;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.sale-mainimg {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    max-width: 335px;    
+    background: #f3f3f3;
+    padding: 50px;
+}
+
+.sale-info {
+    border-radius: 30px;
+    max-width: 335px;
+    background: #3350e9;
+    padding: 48px 28px;
+}
+
+.sale-info-subtitle {
+    margin-bottom: 20px;
+}
+
+.sale-info-subtitle-text {    
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16667;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 10px;
+}
+
+.sale-info-subtitle-tag {    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-info-price {
+    display: flex;
+    gap: 9px;
+    margin-bottom: 28px;
+}
+
+.sale-info-newprice {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 68px;
+    height: 32px;
+    background: rgba(251, 251, 251, 0.1);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    }
+
+.sale-info-oldprice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-info-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+    margin-bottom: 28px;
+}
+
+.sale-info-prop-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;  
+}
+
+.sale-info-prop-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33333;
+    color: #fbfbfb;
+}
