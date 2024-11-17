@@ -1,6 +1,4 @@
 .about-us {
-  padding-top: 30px;
-  padding-bottom: 30px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -40,6 +38,7 @@
   width: 160px;
   background-color: #3350e9;
   padding: 15px 37px 15px 38px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .about-us-link-wrapper:hover,
@@ -66,8 +65,6 @@
 
 @media only screen and (min-width: 768px) {
   .about-us {
-    padding-top: 40px;
-    padding-bottom: 40px;
     gap: 40px;
   }
 
@@ -99,8 +96,6 @@
 @media only screen and (min-width: 1280px) {
   .about-us {
     flex-direction: row;
-    padding-top: 50px;
-    padding-bottom: 50px;
   }
 
   .about-us-content {
