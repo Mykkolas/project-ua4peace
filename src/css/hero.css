@@ -1,0 +1,152 @@
+:root {
+    font-family: "Gilroy", sans-serif;
+}
+
+.hero-title {
+  color: #0c0c0c;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  margin-top: 60px;
+  padding-bottom: 20px;
+}
+
+.hero-span {
+  color: #3350e9;
+}
+
+.hero-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+
+.hero-photo-scroll {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 28px;
+}
+
+.hero-photo {
+  display: flex;
+  align-items: flex-end;
+  gap: 155px;
+}
+
+.hero-photo-item {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.mini-photo {
+  list-style: none;
+  margin-left: -12px;
+}
+
+.mini-photo:first-child {
+  margin-left: 0;
+}
+
+.mini-photo img {
+  list-style: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hero-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  color: #0c0c0c;
+}
+
+.hero-link:focus,
+.hero-link:hover {
+  color: #3350e9;
+}
+
+.hero-img {
+  border-radius: 30px;
+  margin-top: 28px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .hero-item { 
+    max-width: 80%;
+ }
+
+  .hero-title {
+    font-size: 70px;
+    line-height: 0.86;
+  }
+
+  .hero-text {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 40px;
+  }
+
+  .hero-photo {
+    gap: 180px;
+  }
+
+  .hero-photo-scroll {
+    display: flex; 
+    align-items: center;
+    margin-top: 80px;
+  }
+
+  .hero-photo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .hero-photo-item {
+    padding: 0;
+  }
+
+  .mini-photo img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .hero-link {
+    font-size: 20px;
+    line-height: 1;
+}
+}
+
+@media only screen and (min-width: 1280px) {
+    .hero-item { 
+        max-width: 50%;
+     }
+
+     .hero-title {
+        font-size: 72px;
+        line-height: 0.87;
+      }
+
+      .mini-photo img {
+        width: 60px;
+        height: 60px;
+      }
+}

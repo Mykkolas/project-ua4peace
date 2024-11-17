@@ -42,6 +42,11 @@
   padding: 15px 37px 15px 38px;
 }
 
+.about-us-link-wrapper:hover,
+.about-us-link-wrapper:focus {
+  background-color: #1f3cd4;
+}
+
 .about-us-link {
   font-weight: 500;
   font-size: 14px;
