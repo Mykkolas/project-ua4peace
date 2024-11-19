@@ -45,9 +45,6 @@ line-height: 1.33333;
 text-transform: uppercase;
 text-align: center;
 color: #fbfbfb;
-}
-
-.footer-tel-container{
 border: 1px solid rgba(251, 251, 251, 0.2);
 border-radius: 16px;
 width: 152px;
@@ -92,7 +89,6 @@ color: #fbfbfb;
 
 .footer-address{
 display: flex;
-flex-wrap: wrap;
 max-width: 83px;
 }
 .footer-address-link{
@@ -100,6 +96,7 @@ font-weight: 500;
 font-size: 12px;
 line-height: 1.33333;
 color: #fbfbfb;
+font-style: normal;
 }
 .footer-line {
     width: 100%;
@@ -124,7 +121,18 @@ color: #fbfbfb;
     flex-direction: row;
     gap: 20px;
 }
-
+.footer-contact-tel:hover,
+.footer-contact-tel:focus,
+.footer-social-item:hover,
+.footer-social-item:focus,
+.footer-menu-item:hover,
+.footer-menu-item:focus,
+.footer-logo:hover,
+.footer-logo:focus,
+.footer-address-link:hover,
+.footer-address-link:focus{
+    cursor: pointer;
+}
 
 
 
@@ -152,8 +160,6 @@ height: 36px;
 .footer-contact-tel{
 font-size: 14px;
 line-height: 1.28571;
-}
-.footer-tel-container{
 width: 160px;
 height: 48px;
 margin-bottom: 0px;
@@ -213,7 +219,7 @@ line-height: 1.28571;
     .footer-pk {
         padding: 0 32px;
     }
-    .footer-tel-container{
+    .footer-contact-tel{
         order: 3;
     }
     .footer-title{
