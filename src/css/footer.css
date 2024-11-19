@@ -34,7 +34,7 @@
     width: 34px;
     height: 34px;
 }
-.footer-social-icon{
+.footer-social-icon {
     width: 18px;
     height: 18px;
     fill: #fbfbfb;
@@ -132,7 +132,9 @@
 .footer-logo:hover,
 .footer-logo:focus,
 .footer-address-link:hover,
-.footer-address-link:focus{
+.footer-address-link:focus,
+.footer-social-icon:hover,
+.footer-social-icon:focus  {
     cursor: pointer;
     opacity: 1;
 }
