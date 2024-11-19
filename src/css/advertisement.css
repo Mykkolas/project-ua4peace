@@ -86,7 +86,7 @@
   }
   @media (min-resolution: 192dpi) {
     .advertisement {
-      background-image: url(../img/advertisement_img/advertisement_bgrd_desk@_2x.webp);
+      background-image: url(/img/advertisement_img/advertisement_bgrd_desk@_2x.webp);
     }
   }
   .advrt-paragraph {

@@ -8,7 +8,6 @@
   font-size: 40px;
   line-height: 0.95;
   letter-spacing: -0.02em;
-  margin-top: 60px;
   padding-bottom: 20px;
 }
 
@@ -85,8 +84,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0;
-    margin: 0;
+   margin-top: -35px;
   }
 
   .hero-item { 
@@ -96,6 +94,7 @@
   .hero-title {
     font-size: 70px;
     line-height: 0.86;
+    margin-top: -10px;
   }
 
   .hero-text {
