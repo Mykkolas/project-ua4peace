@@ -13,6 +13,8 @@
             type="text"
             name="user-name"
             placeholder="Name"
+            id="user-name"
+            required
           />
           <input
             class="input-contacts"
@@ -20,7 +22,8 @@
             name="user-email"
             placeholder="Email"
             pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-            id="Contact"
+            id="user-email"
+            required
           />
           <input
             class="input-contacts"
@@ -28,13 +31,14 @@
             name="user-phone"
             placeholder="+380"
             pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
-            id="Contact"
+            id="user-phone"
+            required
           />
           <textarea
             class="textarea"
             name="user-comment"
             placeholder="Comment"
-            id="Contact"
+            id="user-comment"
           ></textarea>
         </div>
         <button class="button-send" type="submit">Send</button>
