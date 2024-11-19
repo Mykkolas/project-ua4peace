@@ -15,13 +15,7 @@
     color: #0c0c0c;
 }
 
-.catalog-section {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 40px;
-}
+
 
 .catalog-list {
     display: flex;
@@ -33,11 +27,12 @@
 
 .catalog-item {
     max-width: 335px;
-    padding: 24px 28px;
+    width: 100%;
 }
 
 .catalog-item-border {
     max-width: 335px;
+    width: 100%;
     background: #f3f3f3;
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
@@ -45,7 +40,7 @@
 
 .catalog-item-none {
     max-width: 335px;
-    padding: 24px 28px;
+    width: 100%;
 }
 
 .catalog-item-border-none {
@@ -61,6 +56,7 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 10px;
+    padding: 24px 28px;
 }
 
 
@@ -129,6 +125,7 @@
         padding-top: 40px;
         padding-bottom: 40px;
         gap: 40px;
+        
     }
 
     .catalog-title {
@@ -146,15 +143,19 @@
         flex-wrap: wrap;
         gap: 32px 16px;
         margin-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .catalog-item {
         width: calc((100% - 16px) / 2);
-        padding: 24px 32px;
     }
 
     .catalog-item-none {
         width: calc((100% - 16px) / 2);
+    }
+
+    .catalog-content {
         padding: 24px 32px;
     }
 
@@ -180,51 +181,18 @@
     .catalog {
         padding-top: 50px;
         padding-bottom: 50px;
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-    }
-
-    .catalog-title {
-        text-align: left;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 0.92;
-        letter-spacing: -0.02em;
-        color: #0c0c0c;
     }
 
     .catalog-list {
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
         gap: 32px 23px;
-        margin-bottom: 0;
     }
 
     .catalog-item {
         width: calc((100% - 46px) / 3);
-        padding: 24px 32px;
     }
 
     .catalog-item-none {
         width: calc((100% - 46px) / 3);
-        padding: 24px 32px;
     }
 
-    .catalog-item-border-none {
-        display: block;
-        background: #f3f3f3;
-        border: 1px solid rgba(12, 12, 12, 0.05);
-        border-radius: 30px;
-    }
-
-    .catalog-subtitle {
-        font-size: 20px;
-        line-height: 1;
-    }
-
-    .catalog-button {
-        display: none;
-    }
 }
