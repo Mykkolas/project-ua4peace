@@ -1,6 +1,4 @@
 .catalog {
-    padding-top: 30px;
-    padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -122,10 +120,7 @@
 @media screen and (min-width: 768px) {
 
     .catalog {
-        padding-top: 40px;
-        padding-bottom: 40px;
         gap: 40px;
-        
     }
 
     .catalog-title {
@@ -145,6 +140,12 @@
         margin-bottom: 0;
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .catalog-item,
+    .catalog-item-border,
+    .catalog-item-none {
+        max-width: none;
     }
 
     .catalog-item {
@@ -177,11 +178,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-
-    .catalog {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
 
     .catalog-list {
         gap: 32px 23px;
